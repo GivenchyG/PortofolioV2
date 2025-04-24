@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import DarkMode from '@/components/DarkMode.vue';
 </script>
 
 <template>
+  <DarkMode />
   <h1 class="text-3xl bg-red-500 font-bold underline">
     Hello world!
   </h1>
